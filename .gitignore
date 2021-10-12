@@ -46,6 +46,8 @@ build/Release
 
 # Dependency directories
 node_modules/
+public/base.html
+public/index-1.html
 
 # Optional npm cache directory
 .npm

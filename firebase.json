@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "kikao64",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

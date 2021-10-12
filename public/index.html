@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kikao64 Café App Dev</title>
+  <link rel="icon" sizes="192x192" type="image/png" href="/img/64.png">
+
+    <meta name="description" content="kikao64">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/css/tempusdominus-bootstrap-4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/brands.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Josefin+Sans:300,400,700">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+
+
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+</head>
+<body data-spy="scroll" data-target="#navbar" class="static-layout" style="background-color: black;">
+	<div id="side-nav" class="sidenav">
+	<a href="javascript:void(0)" id="side-nav-close">&times;</a>
+	
+	<div class="sidenav-content">
+        <img src="img/kikao1.png" alt="">
+        <p>https://kikao64.ke/</p>
+
+		<!-- <p><code>Visit Cafe Site :</code><a href=""></a></p> -->
+		<p> <a href="https://kikao64.ke/contact-2/"><code>Contuct Us</code></a>
+		</p>
+	</div>
+</div>	<div id="side-search" class="sidenav">
+	<a href="javascript:void(0)" id="side-search-close">&times;</a>
+	<div class="sidenav-content">
+		<form action="">
+
+			<div class="input-group md-form form-sm form-2 pl-0">
+			  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+			  <div class="input-group-append">
+			    <button class="input-group-text red lighten-3" id="basic-text1">
+			    	<i class="fas fa-search text-grey" aria-hidden="true"></i>
+			    </button>
+			  </div>
+			</div>
+
+		</form>
+	</div>
+	
+ 	
+</div>
+	<div id="canvas-overlay"></div>
+	 <div class="boxed-page">
+		<nav id="navbar-header" class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand navbar-brand-center d-flex align-items-center p-0 only-mobile" href="#">
+            <img src="img/kikao2.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-menu"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-between">
+                <li class="nav-item only-desktop">
+                    <a class="nav-link" id="side-nav-open" href="#">
+                        <span class="lnr lnr-menu"></span>
+                    </a>
+                </li>
+                <div class="d-flex flex-lg-row flex-column">
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://kikao64.ke/">Official Website</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                </div>
+            </ul>
+            
+            <a class="navbar-brand navbar-brand-center d-flex align-items-center only-desktop" href="#">
+                <img src="img/kikao2.png" alt="">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-between">
+                <div class="d-flex flex-lg-row flex-column">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gtco-special-dishes">Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gtco-welcome">App Dev Tools</a>
+                    </li>
+                </div>
+                <li class="nav-item">
+                    <a id="side-search-open" class="nav-link" href="#">
+                        <span class="lnr lnr-magnifier"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+ </nav>
+<section id="gtco-special-dishes" class="bg-grey section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <span class="subheading">
+                    Guide
+                </span>
+                <h2>
+                    Kikao64 ☕ App Installation Steps
+                </h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center py-5">
+                    <h2 class="special-number">01.</h2>
+                    <div class="dishes-text">
+                        <h3><span>Pre-</span><br>requisites</h3>
+                        <p class="pt-3">Click on the button below depending on your phone type to download the <code>Expo Go</code> App.</p>
+                        <a href="https://itunes.apple.com/app/apple-store/id982107779" class="btn-primary mt-3">iOS App</a>
+                        <a href="https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www" class="btn-primary mt-3">Android App</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0">
+                    <img src="img/expo.png" alt="" class="img-fluid shadow w-100">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center order-2 order-md-1 mt-4 mt-md-0">
+                    <img src="img/photos/photo5.jpg" alt="" class="img-fluid shadow w-100">
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center order-1 order-md-2 py-5">
+                    <h2 class="special-number">02.</h2>
+                    <div class="dishes-text">
+                        <h3><span>Account</span><br> Login</h3>
+                        <p class="pt-3">Sign In to your account on <code>Expo Go</code> under the profile tab as shown on the picture. Use the credentials below.</p>
+                        <h5 class="special-dishes-price"><strong>Username : </strong><code>kikao64</code></h5>
+                        <h5 class="special-dishes-price"><strong>Password : </strong> <code>2021@kikao64</code></h5>
+                        <!-- <p class="pt-3">After Signing In to <code>Expo Go</code>, click on the button below to open the <code>Kikao64</code> ☕ App.</p>
+                        <a href="https://expo.io/@b-doug/projects/Kikao64" class="btn-primary mt-3">Kikao64 ☕ App<span><i class="fa fa-long-arrow-right"></i></span></a>
+                        <p class="pt-2"><code>Note: </code> For Android users, you might as well scan the QR-Code given to load the app.</p> -->
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center py-5">
+                <h2 class="special-number">03.</h2>
+                <div class="dishes-text">
+                    <h3><span>Expo</span><br> Go</h3>
+                    <p class="pt-3">After Signing In to <code>Expo Go</code>, click on the button below to open the <code>Kikao64</code> ☕ App project.</p>
+                    <a href="https://expo.io/@b-doug/projects/Kikao64" class="btn-primary mt-3">Kikao64 ☕ App<span><i class="fa fa-long-arrow-right"></i></span></a>
+                    <p class="pt-2">Finally, click on <code>Open Project Using Expo</code>.</p>
+                </div>
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0">
+                    <img src="img/photos/photo9.jpg" alt="" class="img-fluid shadow w-100">
+                </div>
+            </div>
+             <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center order-2 order-md-1 mt-4 mt-md-0">
+                    <img src="img/photos/photo6.png" alt="" class="img-fluid shadow w-100">
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center order-1 order-md-2 py-5">
+                    <h2 class="special-number">04.</h2>
+                    <div class="dishes-text">
+                        <h3><span>QR</span><br> Code</h3>
+                        <p class="pt-2"><code>Note: </code> For Android users, you might as well scan the QR-Code given to load the app.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 col-md-6 align-self-center py-5">
+                <h2 class="special-number">05.</h2>
+                <div class="dishes-text">
+                    <h3><span>Expo</span><br>Menu</h3>
+                    <p class="pt-3">For iOS users, shake your phone for the menu to show up, click on <code>Go To Home</code> then under projects on the <em>Recently Opened</em>, click on <strong>Kikao64 <code>@kikao64</code></strong> to reload the project app.</p>
+                    <p class="pt-2"><strong>Note : </strong> If you are offline and have opened the app before, click on <code>Use Cache</code> to load the app, else if you have an internet connection,  click on <code>Reload</code> to reload your app to check on the progressiveness of the app development.</p>
+                    <p class="pt-3"><code><strong>DISCLAIMER : </strong> This is a prototype lite version of the app, and no publication has been made for public use either on App Store or Google Play Store. All rights reserved to Kikao64.</code></p>
+                    <a href="https://kikao64.ke/" class="btn-primary mt-3">Kikao64 Official Website<span><i
+                        class="fa fa-long-arrow-right"></i></span></a>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-2 col-md-6 align-self-center mt-4 mt-md-0">
+                    <img src="img/photos/photo7.jpg" alt="" class="img-fluid shadow w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="gtco-testimonial" class="overlay bg-fixed section-padding" style="background-image: url(img/coffee1.jpg);">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <span class="subheading">
+                    Kikao64
+                </span>
+                <h2 class="text-black-50">
+                    Kikao64 In House Café App Development Tools
+                </h2>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="gtco-team" class="bg-white section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="heading-section text-center">
+                <span class="subheading">
+                    App Navigation
+                </span>
+                <h2>
+                    The General Illustration of the App
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/photos/photo2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/photos/photo3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-card mb-5">
+                        <img class="img-fluid" src="img/photos/photo4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="gtco-welcome" class="bg-white section-padding">
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-sm-5 img-bg d-flex shadow align-items-center justify-content-center justify-content-md-end img-2" style="background-image: url(img/3.jpg);">
+                    </div>
+                    <div class="col-sm-7 py-5 pl-md-0 pl-4">
+                        <div class="heading-section pl-lg-5 ml-md-5">
+                        <span class="subheading">
+                            Kikao64 In House Café App
+                        </span>
+                        <h2>
+                            Development Tools
+                        </h2>
+                    </div>
+                    <div class="pl-lg-5 ml-md-5">
+                        <p><code><strong>Programming Language : </strong></code> React JS</p>
+                        <p><code><strong>Framework : </strong></code> React Native</p>
+                        <p><code><strong>Environment : </strong></code> Expo CLI</p>
+                        <p><code><strong>App Version : </strong></code> Lite</p>
+                        <p><code><strong>IDE : </strong></code> VS Code</p>
+                        <p><code><strong>Package Manager : </strong></code> npm, yarn</p>
+                        <p><code><strong>iOS : </strong></code> iPhone XS</p>
+                        <p><code><strong>Android : </strong></code> Chrome Browser Web Dev</p>
+                        <p><code><strong>Dependencies : </strong></code>
+                        <ul>
+                            <li>
+                                <p>"@react-native-community/masked-view": "^0.1.10",</p>
+                            </li>
+                            <li>
+                                <p>"@react-navigation/bottom-tabs": "^5.11.8",</p>
+                            </li>
+                            <li>
+                                <p>"@react-navigation/native": "^5.9.3",</p>
+                            </li>
+                            <li>
+                                <p>"@react-navigation/stack": "^5.14.3",</p>
+                            </li>
+                            <li>
+                                <p>"expo": "~40.0.0",</p>
+                            </li>
+                            <li>
+                                <p>"expo-font": "^8.4.0",</p>
+                            </li>
+                            <li>
+                                <p>"expo-status-bar": "~1.0.3",</p>
+                            </li>
+                            <li>
+                                <p>"react": "16.13.1",</p>
+                            </li>
+                            <li>
+                                <p>"react-dom": "16.13.1",</p>
+                            </li>
+                            <li>
+                                <p>"react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",</p>
+                            </li>
+                            <li>
+                                <p>"react-native-camera": "^3.43.6",</p>
+                            </li>
+                            <li>
+                                <p>"react-native-gesture-handler": "^1.8.0",</p>
+                            </li>
+                            <li>
+                                <p>"react-native-iphone-x-helper": "^1.3.1",</p>
+                            </li>
+                            <li>
+                                <p>"react-native-maps": "0.27.1",</p>
+                            </li>
+                            <li>
+                                <p>"react-native-maps-directions": "^1.8.0",</p>
+                            </li>
+                            <li>
+                                <p>"react-native-permissions": "^3.0.1",</p>
+                            </li>
+                            <li>
+                                <p>"react-native-qrcode-scanner": "^1.5.4",</p>
+                            </li>
+                            <li>
+                                <p>"react-native-reanimated": "^1.13.0",</p>
+                            </li>
+                            <li>
+                                <p>"react-native-safe-area-context": "^3.1.9",</p>
+                            </li>
+                            <li>
+                                <p>"react-native-screens": "^2.15.2",</p>
+                            </li>
+                            <li>
+                                <p>"react-native-svg": "^12.1.0",</p>
+                            </li>
+                            <li>
+                                <p>"react-native-web": "~0.13.12",</p>
+                            </li>
+                            <li>
+                                <p>"react-native-webview": "^11.4.2",</p>
+                            </li>
+                            <li>
+                                <p>"react-navigation-stack": "^2.10.4"</p>
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+	<!-- External JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+	<script src="vendor/bootstrap/popper.min.js"></script>
+	<script src="vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="vendor/select2/select2.min.js "></script>
+	<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+	<script src="https://cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js"></script>
+	<script src="vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.1/js/tempusdominus-bootstrap-4.min.js"></script>
+
+	<!-- Main JS -->
+	<script src="js/app.min.js "></script>
+</body>
+</html>
